@@ -31,7 +31,7 @@ export default function Header() {
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
-                            <button className="btn btn-outline-success" type="submit"><i class="bi bi-cart-fill"></i> &nbsp; Cart  &nbsp;<span class="badge text-bg-dark">4</span></button>
+                            <button className="btn btn-outline-success" type="submit"><i className="bi bi-cart-fill"></i> &nbsp; Cart  &nbsp;<span className="badge text-bg-dark">4</span></button>
                         </form>
                     </div>
                 </div>
