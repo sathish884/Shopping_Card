@@ -2,3 +2,7 @@
     background-color: white !important;
     color: black !important;
 }
+.img-thumbnail{
+    width: 100px !important;
+    height: 50px !important;
+}

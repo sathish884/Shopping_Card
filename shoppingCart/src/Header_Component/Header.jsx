@@ -6,7 +6,9 @@ export default function Header(props) {
         <div className='row'>
             <nav className="navbar navbar-expand-lg bg-light">
                 <div className="container-fluid mx-5" style={{ padding: "5px" }}>
-                    <a className="navbar-brand" href="#">Shopping Cart</a>
+                    <a href='#' className="navbar-brand text-primary">
+                    <img className='img-thumbnail' src="images.png" alt="Bootstrap" />
+                    </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
