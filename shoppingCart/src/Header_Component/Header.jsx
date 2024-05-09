@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-export default function Header() {
+export default function Header(props) {
     return (
         <div className='row'>
             <nav className="navbar navbar-expand-lg bg-light">
@@ -31,7 +31,7 @@ export default function Header() {
                             </li>
                         </ul>
                         <form className="d-flex" role="search">
-                            <button className="btn btn-outline-success" type="submit"><i className="bi bi-cart-fill"></i> &nbsp; Cart  &nbsp;<span className="badge text-bg-dark">4</span></button>
+                            <button className="btn btn-outline-success" type="submit"><i className="bi bi-cart-fill"></i> &nbsp; Cart  &nbsp;<span className="badge text-bg-success">{props.cartCount}</span></button>
                         </form>
                     </div>
                 </div>

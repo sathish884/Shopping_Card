@@ -1,3 +1,8 @@
+.card {
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .shop-content {
     background-color: #212529;
     color: white;
@@ -6,4 +11,44 @@
 
 .btn {
     border: 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+/* .card-img-top {
+    position: relative;
+} */
+.card-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.badge-none {
+    display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .col-sm-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .col-sm-12 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* @media only screen and (min-width: 768px) {
+        .col-sm-12 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+} */
